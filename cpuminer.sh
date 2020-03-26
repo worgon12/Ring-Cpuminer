@@ -68,6 +68,6 @@ make -j4
 echo "${GREEN}done"
 strip -s cpuminer
 echo "${GREEN}finish"
-echo "${GREEN}run cpuminer with Terminal -> ./configure -a minotaur -o stratum+tcp://stratum-eu.rplant.xyz:7018 -u ->your wallet addy<-"
+echo "${GREEN}run cpuminer with Terminal -> ./cpuminer -a minotaur -o stratum+tcp://stratum-eu.rplant.xyz:7018 -u ->your wallet addy<-"
 sleep 5
 exit 0
